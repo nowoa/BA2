@@ -959,14 +959,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogWindow: {fileID: 928850432}
   DialogText: {fileID: 244434956}
+  PortraitAnimator: {fileID: 1227701604}
   NPCDialog:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  interactionDistance: 5.94
+  - Hello, my name is Norman P. Cool
+  - But you can call me NPC
+  - What does the P. stand for?
+  - Well, Porman of course
+  interactionDistance: 2
 --- !u!1 &928850432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: bed8c1a1eb3c4b740b873167633ea932, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
